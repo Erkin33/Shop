@@ -279,7 +279,7 @@ Unique Charms
         </h1>
       </div>
 
-      <a href="#" className="mxx:text-[25px] w-[27%] xl:text-[1.8vw] md:h-full xs:w-[25%] text-[2.3vw] h-full xs:h-[25%] flex justify-around items-center bg-[#000000] text-[white]">
+      <a href="/blog" className="mxx:text-[25px] w-[27%] xl:text-[1.8vw] md:h-full xs:w-[25%] text-[2.3vw] h-full xs:h-[25%] flex justify-around items-center bg-[#000000] text-[white]">
       More Blogs <img src="/ArrowWhite.svg" className="w-[20%] xl:h-[50%] xl:w-[15%] h-[35%] ml-[5%] rounded-full bg-[#ffffff] text-[#00000]"/>
       </a>
 

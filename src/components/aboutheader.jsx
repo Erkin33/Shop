@@ -89,7 +89,7 @@ export default function Aboutheader() {
           <div className="flex justify-center flex-col items-center w-[10%] h-[100%]">
           <div className="flex flex-row justify-center items-center w-full h-[50%]">
           <h3 className="text-[white] xs:text-[3vw] md:text-[2vw] mxx:text-[33px]">EN</h3>
-          <button onClick={changeDefault} className="w-[20%] md:text-[2vw] xs:text-[3.5vw] py-[0em] px-[0em] bg-[#000000] text-[white]">&#x1F847;</button><br />
+          <button onClick={changeDefault} className="w-[20%] md:text-[2vw] xs:text-[3.5vw] py-[0em] px-[0em] bg-[#0e343d] text-[white]">&#x1F847;</button><br />
           
           </div>
           <div ref={disapper} style={{display:"none"}} className="bg-[red] z-[100] h-[10%] w-[10%] absolute flex flex-col justify-center items-center mr-[0%] mt-[9%] mxx:text-[33px]">
@@ -100,8 +100,8 @@ export default function Aboutheader() {
         )
     }
   return (
-    <header className="flex justify-between flex-col h-[5em] mxx:h-[10em] bg-[#000000]">
-        <div className="w-full h-[50%] flex justify-around flex-row items-center bg-[#000000]">
+    <header className="flex justify-between flex-col h-[5em] mxx:h-[10em] ">
+        <div className="w-full h-[50%] flex justify-around flex-row items-center bg-[#0e343d]">
             {/* <img src={FaceBook} alt="" width={70} height={70}/> */}
             <div className="lg:w-[8%] md:w-[10%] xs:hidden  mxx:flex mxx:h-[100%] w-[6%] h-[10%] justify-between items-center flex flex-row">
                 <FaceBook/>
